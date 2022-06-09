@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Gabriel Corrêa Fiusa</title>
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+	<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-titulo.css">
+	<link rel="stylesheet" href="./assets/css/menu/menu.css">
+	<link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+	<link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+	<link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<link rel="stylesheet" href="./assets/css/contato/form.css">
+	<link rel="stylesheet" href="./assets/css/contato/form-label.css">
+	<link rel="stylesheet" href="./assets/css/contato/form-input.css">
+	<link rel="stylesheet" href="./assets/css/contato/enviar.css">
+	<link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+<body>
+	<header class="cabecalho">
+		<h1 class="cabecalho-titulo">Gabriel Corrêa Fiusa</h1>
+		<nav class="menu">
+			<ul class="menu-lista">
+				<li class="menu-item"><a class="menu-link" href="index.html">Início</a></li>
+				<li class="menu-item"><a class="menu-link" href="produtos.html">Produtos</a></li>
+				<li class="menu-item"><a class="menu-link" href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" required>
+
+				<label for="telefone">Telefone</label>
+				<input type="telefone" id="telefone" required placeholder="(xx) xxxxx - xxxx">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" required placeholder="seuemail@dominio.com">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="90" rows="20" id="mensagem"></textarea>
+
+				<input type="submit" value="Enviar Formulário" class="enviar">
+			</form>
+		</main>
+
+	<footer>
+		<p class="copyright">&copy; 2022 - Gabriel Corrêa Fiusa</p>
+	</footer>
+</body>
+</html>

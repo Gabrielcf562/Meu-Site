@@ -1,0 +1,13 @@
+.menu-link {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-link:hover {
+	color: white;
+	text-decoration: underline;
+}

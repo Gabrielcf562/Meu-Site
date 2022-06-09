@@ -1,0 +1,19 @@
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+main .principal p {
+	background: red:
+}
+
+.principal {
+	opacity: 3.0;
+	box-shadow: 20px 10px 30px 30px rgb(30, 12, 194);
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.principal p:not(.principal-conteudo) {
+	background: orange;
+}

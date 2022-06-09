@@ -1,0 +1,26 @@
+.botao-comprar {
+	background: blue;
+	border-color: blue;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+	margin-left: 20px;
+	margin-top: 30px;
+	transition: 1s all;
+	padding: 20px;
+	width: 80%;
+}
+
+.botao-comprar:hover {
+	background: orange;
+	border-color: orange;
+	color: #000000;
+	font-size: 26;
+	transform: scale(1.2);
+}
+
+.botao-comprar:active {
+	background: darkorange;
+}

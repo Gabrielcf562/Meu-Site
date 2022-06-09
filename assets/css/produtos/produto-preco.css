@@ -1,0 +1,12 @@
+.produto-preco {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.produto-preco:hover {
+	font-size: 24px;
+}
